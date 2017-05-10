@@ -24,6 +24,12 @@ nav li{
     margin-right: 40px;
 }
 
+.bar{
+  position: absolute;
+  top:900px;
+  left: 270px;
+}
+
 h1{
     font-family: "Arvo";
     font-weight: lighter;
@@ -36,15 +42,20 @@ section img{
 }
 
 .one{
+position: relative;
+  top: 150px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 200px;
+
+    margin-bottom: 0px;
 }
 
 footer{
+  position: absolute;
     background-color: #F7F7F7;
     padding-top: 50px;
+    top: 1000px;
 }
 
 footer ul li{
@@ -102,6 +113,8 @@ input{
     border:none;
 }
 
+
+
 form{
     border:1px solid grey;
     display: flex;
@@ -117,16 +130,108 @@ hr{
     margin-bottom: 30px;
     padding: 0px;
 }
+#w1{
+font-family: "Josefin Sans";
+
+}
+
+#goat{
+  width: 20%;
+  height: 5%;
+  left:26%;
+  top: 22%;
+  font-family: "Josefin Sans";
+  position: absolute;
+}
+
+
+#goatw{
+  width: 50%;
+  height: 0%;
+  font-size: 50%;
+  font-family: "Josefin Sans";
+}
+
+
+.barb3{
+    top: 50px;
+
+  width: 60px;
+  height: 40px;
+    margin:10px 0 10px 10px ;
+     background: red;
+    position: absolute;
+}
+
+.barb2{
+    top: 50px;
+    left: 50px;
+
+  width: 120px;
+  height: 40px;
+
+    margin:10px 0 10px 10px ;
+     background: red;
+    position: absolute;
+}
+
+.barb1{
+    top: 50px;
+    left: 70px;
+
+
+  width:60px;
+  height: 40px;
+    margin:10px 0 10px 10px ;
+     background: red;
+    position: absolute;
+}
+
+.barb{
+
+
+  width: 700px;
+  height: 40px;
+    margin:10px 0 10px 10px ;
+     background: red;
+    position: absolute;
+}
+
+.blog
+{
+  position: absolute;
+  font-size: 10px;
+  left: 50%;
+  top: 150px;
+
+
+}
+
+.blog1
+{
+  position: absolute;
+  font-size: 10px;
+    left: 80%;
+
+
+}
+
+
 
 .email{
     margin:10px 0 10px 10px ;
+}
+
+.pushg{
+  position: absolute;
+
 }
 
 .submit{
     background-color: black;
     color:white;
     height:45px;
-    width: 120px;
+    width: 130px;
     border-radius: 4px;
     font-family: "sans-serif","Josefin Sans";
     font-weight: bolder;
@@ -141,4 +246,3 @@ h5{
     font-weight: normal;
     letter-spacing: 1px;
 }
-
